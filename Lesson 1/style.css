@@ -21,3 +21,21 @@ h1 {
 .animal-icon {
   font-size: 120px;
 }
+
+.card2 {
+  width: 500px;
+
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.card3 {
+  width: 500px;
+
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+}
