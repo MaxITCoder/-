@@ -1,0 +1,23 @@
+body {
+  background-color: #929c0b;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: #d3620b;
+  font-size: 36px;
+  margin-top: 50px;
+}
+.card {
+  width: 500px;
+
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+.animal-icon {
+  font-size: 120px;
+}
