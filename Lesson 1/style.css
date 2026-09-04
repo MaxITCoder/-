@@ -1,5 +1,5 @@
 body {
-  background-color: #929c0b;
+  background-color: #f6ff00;
   text-align: center;
   font-family: Arial, sans-serif;
   margin: 0;
@@ -33,20 +33,45 @@ h1 {
 
 .card3 {
   width: 500px;
-
   margin: 20px auto;
   border-radius: 10px;
   background-color: #ffffff;
   padding: 20px;
 }
+
 .square {
   width: 100px;
   height: 100px;
   background: #0e06eb;
 }
+
 .circle {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   background: #05caed;
   border-radius: 50%;
+  margin-top: 20px;
+}
+
+.rectangle {
+  width: 300px;
+  height: 150;
+  background: #bc0303;
+  margin-top: 20px;
+}
+
+.oval {
+  width: 400px;
+  height: 200px;
+  background: #ffffff;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.rounded-square {
+  width: 500px;
+  height: 500px;
+  background: #000000;
+  border-radius: 20%;
+  margin-top: 20px;
 }
