@@ -225,3 +225,41 @@ body {
 .cat-leg.front {
   left: 56px;
 }
+
+.cat-ear {
+  left: 62px;
+  top: -7;
+  width: 0px;
+  height: 0px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 12px solid #edb408;
+}
+
+.cat-eye {
+  left: 77px;
+  top: 7px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.cat-nose {
+  left: 85px;
+  top: 14px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #ae3787;
+}
+
+.cat-tail {
+  width: 10px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #e29209;
+  left: 2px;
+  top: -10px;
+  transform: rotate(-52deg);
+}
