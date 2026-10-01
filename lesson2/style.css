@@ -179,3 +179,49 @@ body {
   top: 30px;
   left: 25px;
 }
+
+.cat {
+  width: 90px;
+  height: 60px;
+  position: absolute;
+  top: 450px;
+  left: 80px;
+}
+
+.cat > div {
+  position: absolute;
+}
+
+.cat-body {
+  left: 10px;
+  top: 10px;
+  width: 64px;
+  height: 32px;
+  background-color: #f8b602;
+  border-radius: 15px;
+}
+
+.cat-head {
+  left: 58px;
+  top: 0px;
+  width: 30px;
+  height: 28px;
+  background-color: #f8b602;
+  border-radius: 50%;
+}
+
+.cat-leg {
+  top: 36px;
+  width: 9px;
+  height: 22px;
+  background-color: #eb8108;
+  border-radius: 5px;
+}
+
+.cat-leg.back {
+  left: 18px;
+}
+
+.cat-leg.front {
+  left: 56px;
+}
