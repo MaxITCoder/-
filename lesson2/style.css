@@ -186,6 +186,7 @@ body {
   position: absolute;
   top: 450px;
   left: 80px;
+  animation: cat-walk 10s linear infinite;
 }
 
 .cat > div {
@@ -216,6 +217,8 @@ body {
   height: 22px;
   background-color: #eb8108;
   border-radius: 5px;
+  animation: cat-step 0.6s ease-in-out infinite alternate;
+  transform-origin: 50% 0;
 }
 
 .cat-leg.back {
@@ -234,6 +237,7 @@ body {
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
   border-bottom: 12px solid #edb408;
+  transform: rotate(20deg);
 }
 
 .cat-eye {
@@ -262,4 +266,42 @@ body {
   left: 2px;
   top: -10px;
   transform: rotate(-52deg);
+  animation: cat-wag 0.4s ease-in-out infinite alternate;
+  transform-origin: 50% 100%;
+}
+
+@keyframes cat-walk {
+  0% {
+    transform: translateX(0) scaleX(1);
+  }
+  48% {
+    transform: translateX(600px) scaleX(1);
+  }
+  50% {
+    transform: translateX(600px) scaleX(-1);
+  }
+  98% {
+    transform: translateX(0) scaleX(-1);
+  }
+  100% {
+    transform: translateX(0) scaleX(1);
+  }
+}
+
+@keyframes cat-wag {
+  from {
+    transform: rotate(-25deg);
+  }
+  to {
+    transform: rotate(25deg);
+  }
+}
+
+@keyframes cat-step {
+  from {
+    transform: rotate(-20deg);
+  }
+  to {
+    transform: rotate(20deg);
+  }
 }
