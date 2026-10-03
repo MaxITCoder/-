@@ -51,6 +51,9 @@ body {
   border-radius: 50%;
   bottom: -19px;
   left: -21px;
+  z-index: 1;
+  animation: tree-wag 5s ease-in-out infinite alternate;
+  transform-origin: 50% 100%;
 }
 
 .tree-bot {
@@ -117,6 +120,7 @@ body {
   position: absolute;
   top: 60px;
   right: 1000px;
+  animation: cloud-move 10s infinite;
 }
 
 .cloud-one {
@@ -153,8 +157,8 @@ body {
   position: absolute;
   width: 80px;
   height: 93px;
-  top: 200px;
-  left: -435px;
+  top: 272px;
+  left: 76px;
   z-index: 2;
   background-color: rgb(237, 241, 237);
 }
@@ -303,5 +307,26 @@ body {
   }
   to {
     transform: rotate(20deg);
+  }
+}
+
+@keyframes cloud-move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(600px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes tree-wag {
+  from {
+    transform: rotate(-10deg);
+  }
+  to {
+    transform: rotate(10deg);
   }
 }
